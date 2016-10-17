@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+</head>
+<body>
+	<h1>Pokemon Hangman Game</h1>
+	Type a letter then press guess
+	<input id="guess" type="text">
+	
+	<input type="button" value="guess" onClick="guessOne()"/>
+	
+	<input type="button" value="quit" onClick="quit()"/>
+
+	<p id="message">&nbsp;</p>
+
+	<p>
+		<font size="+3"><span id="answer">puzzle loading...</span></font>
+	</p>
+
+
+
+
+<!--Call game javascript-->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	
+</body>
+</html>
