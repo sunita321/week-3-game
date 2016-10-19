@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+		<title>Pokemon Hangman</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Pokemon 'Hangman' Game</h1>
+
+		<p>Who's that Pokemon?</p>
+	
+		<main>
+			<section>
+				<p>Press any key to get started!</p>
+				
+				<p id="currentWord"> </p>
+				<p id="hiddenWord"> </p>
+				<p id="wrongLetters"> </p>
+				<p id="alert"> </p>
+			</section>
+		</main>
+		<footer>
+
+			<h2 id="score">Lives left: <span id="lives"></span></h2>
+			<h2 id="score">Wins: <span id="wins"></span></h2>
+			<h2 id="score">Losses: <span id="loss"></span></h2>
+			
+		</footer>
+
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	</body>
+</html>
